@@ -1,0 +1,6 @@
+IMPORTANT: Use Gradle 8.12+.
+1) Generate wrapper once:  gradle wrapper --gradle-version 8.12
+2) Build with wrapper:     ./gradlew build   (or gradlew.bat build on Windows)
+
+If you see a 'Problems.forNamespace' error, you're using an older Gradle.
+Ensure the wrapper says Gradle >= 8.5 (we recommend 8.12).
